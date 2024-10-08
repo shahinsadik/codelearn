@@ -1,6 +1,6 @@
 const StatsSection = () => {
     return (
-      <section className=" flex justify-around items-center bg-purple-800 p-10 text-white">
+      <section className="px-20  flex justify-around items-center bg-purple-800 p-10 text-white">
         <div className="text-center">
             <p className="h-7 w-7  rounded-full bg-[#e7ff7a]">T</p>
           <h3 className="text-3xl font-bold">360+</h3>

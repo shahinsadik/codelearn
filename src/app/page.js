@@ -2,6 +2,9 @@ import CodersProfiles from "@/components/CoderProfile";
 import Courses from "@/components/Courses";
 import Header from "@/components/HeaderSection";
 import HeroSection from "@/components/HeroSection";
+import StaticPagination from "@/components/Pagination";
+
+import PopularCourses from "@/components/PopularCourses";
 import StatsSection from "@/components/StatsSection";
 
 
@@ -12,7 +15,9 @@ export default function Home() {
     <HeroSection />
     
     <StatsSection />
-    <Courses/>
+    {/* <Courses/> */}
+    <PopularCourses />
+    <StaticPagination/>
     
     </div>
   );
